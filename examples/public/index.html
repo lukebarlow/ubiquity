@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <button id="getARoom">get a room</button>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="d3.v3.js"></script>
+        <script src="ubiquity.js"></script>
+        <script>
+
+        tracks = [
+          {volume : 1, pan : -50},
+          {volume : 5, pan : 10},
+          {volume : 8, pan : 40}
+        ]
+
+        ubiquity( window, 'tracks');
+        </script>
+    </body>
+</html>
